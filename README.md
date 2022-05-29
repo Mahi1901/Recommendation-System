@@ -93,6 +93,8 @@ In this recommendation model, sequential search algorithm has been used,  where 
 Output: 
 
 The output of this recommendation system is to display the top recommended Movies/TV Shows on the basis of the Movies/TV Show searched by the user using the following algorithm: 
+![search1](https://user-images.githubusercontent.com/88702332/170872460-b8181955-a8b2-47a7-b40a-2fa06ba8ffef.PNG)
+
 
  
 
