@@ -67,6 +67,8 @@ COUNT VECTORIZER:
 
 Count Vectorizer is used to convert a collection of text documents to a vector of term/token counts. The scikit-learn library in Python provides the Count Vectorizer tool. It transforms the given text into a vector on the basis of the frequency of each word in the entire document, hence, creating a matrix in which each unique word is represented by a column of the matrix, and each text sample from the document is a row in the matrix. The value of each cell is the count of the word in that particular text sample.  Inside Count Vectorizer, these words are not stored as strings. Rather, they are given a particular index value. 
 
+![cv](https://user-images.githubusercontent.com/88702332/170871984-482984ca-0a85-442e-9ffc-507274d31a98.PNG)
+
 COSINE SIMILARITY: 
 
 The cosine similarity concept that has been used, quantifies the similarity between two or more vectors. It is the cosine of the angle between vectors. Cosine similarity is  commonly used as similarity measurement technique that can be found in widely used libraries and tools such as Matlab, SciKit-Learn, TensorFlow etc. Cosine Similarity is a value that is bound by a constrained range of 0 and 1. The vector representations of the documents can then be used within the cosine similarity formula to obtain a quantification of similarity.  
