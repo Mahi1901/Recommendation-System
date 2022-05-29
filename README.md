@@ -43,8 +43,7 @@ Prerequisites:
 Installations: 
 
 Following libraries were used in the app: 
-
- 
+![import](https://user-images.githubusercontent.com/88702332/170871910-30dca134-9ee6-4d7d-89a3-d1fad0f8ade6.PNG)
 
 Follow the steps to install following libraries: 
 
