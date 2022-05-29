@@ -73,7 +73,8 @@ COSINE SIMILARITY:
 
 The cosine similarity concept that has been used, quantifies the similarity between two or more vectors. It is the cosine of the angle between vectors. Cosine similarity is  commonly used as similarity measurement technique that can be found in widely used libraries and tools such as Matlab, SciKit-Learn, TensorFlow etc. Cosine Similarity is a value that is bound by a constrained range of 0 and 1. The vector representations of the documents can then be used within the cosine similarity formula to obtain a quantification of similarity.  
 
- 
+ ![cosine](https://user-images.githubusercontent.com/88702332/170872057-af9b8025-4e19-42bc-9c15-f639b436efd9.PNG)
+
 
 TIM SORT: 
 
