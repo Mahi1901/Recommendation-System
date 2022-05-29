@@ -39,6 +39,9 @@ Django
 SQLite3 
 
 Prerequisites: 
+Login Credientials:
+Username: Test
+Password : test123
 
 Installations: 
 
