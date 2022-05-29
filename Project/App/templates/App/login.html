@@ -6,22 +6,27 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href="">
-    <script src='main.js'></script>
+    <link rel='stylesheet' type='text/css' media='screen' href="{%static 'css/login.css'%}">
+    <script></script>
 </head>
 <body>
-    <form class="codehim-form" method="post">{%csrf_token%}
+    <form class="codehim-form" method="post" >{%csrf_token%}
         <div class="form-title">
            <div class="user-icon gr-bg">
               <i class="fa fa-user"></i>
            </div>
            <h2><p style="color :rgb(245, 243, 243); ">Login Form</p></h2>
         </div>
-        <label for="email" ><i class="fa fa-envelope"></i><p style="color :rgb(245, 243, 243); "> Email:</p></label>
-        <input type="email" id="email" class="cm-input" name="email" placeholder="Enter your email adress">
+        <label  ><i class="fa fa-envelope"></i><p style="color :rgb(245, 243, 243); "> username:</p></label>
+        <input type="text" id="email" class="cm-input" name="username" placeholder="Enter your username">
         <label for="pass"><i class="fa fa-lock"></i> <p style="color :rgb(245, 243, 243); ">Password:</p></label>
         <input id="pass" type="password" name="password" class="cm-input" placeholder="Enter your password">
-        <button type="submit" class="btn-login  gr-bg"><p style="color :rgb(245, 243, 243); ">Login</p></button>
-     </form>
+        <button type="submit" name="submit" class="btn-login  gr-bg"><p style="color :rgb(245, 243, 243); ">Login</p></button>
+    </form>
+<div>
+    {% for message in messages %}
+    <h3> {{message}} </h3>
+    {% endfor %}
+</div>
 </body>
 </html>
