@@ -44,7 +44,6 @@ Installations:
 
 Following libraries were used in the app: 
 ![import](https://user-images.githubusercontent.com/88702332/170871910-30dca134-9ee6-4d7d-89a3-d1fad0f8ade6.PNG)
-![search2](https://user-images.githubusercontent.com/88702332/170872493-7f993235-baf4-498e-bb30-a0f4b5cb2ab3.PNG)
 
 
 Follow the steps to install following libraries: 
@@ -97,6 +96,7 @@ Output:
 The output of this recommendation system is to display the top recommended Movies/TV Shows on the basis of the Movies/TV Show searched by the user using the following algorithm: 
 ![search1](https://user-images.githubusercontent.com/88702332/170872460-b8181955-a8b2-47a7-b40a-2fa06ba8ffef.PNG)
 
+![search2](https://user-images.githubusercontent.com/88702332/170872493-7f993235-baf4-498e-bb30-a0f4b5cb2ab3.PNG)
 
  
 
